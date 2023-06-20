@@ -21,3 +21,19 @@
     border-color: rgb(191, 52, 28);
   }
   
+  #h2{
+        margin: 30px;
+        text-align: center;
+        font-size: xx-large;
+        color: rgb(82, 192, 23);
+  }
+
+  .container {
+    text-align: center;
+  }
+  
+  .ol{
+    display: inline-block;
+    text-align: left;
+    font-size: large;
+  }
