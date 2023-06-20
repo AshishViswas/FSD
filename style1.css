@@ -1,0 +1,23 @@
+.table-border{
+    border: 2px solid black;
+    border-color: orangered;
+    background-color: aliceblue;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 50px;
+    width: 800px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-color: rgb(191, 52, 28);
+  }
+  
