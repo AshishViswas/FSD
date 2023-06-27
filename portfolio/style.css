@@ -1,0 +1,167 @@
+.c{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+ 
+.c1{
+    color: white;
+}
+
+.description{
+    padding-top: 50px;
+    background-color: rgba(42, 39, 214, 0.437);
+}
+
+.description1{
+    padding-top: 50px;
+    background-color: rgb(66, 154, 44);
+}
+
+.description2{
+    padding-top: 50px;
+    background-color: rgba(143, 54, 181, 0.762);
+}
+
+.description3{
+    padding-top: 50px;
+    background-color: rgba(238, 3, 3, 0.888);
+}
+
+.alink{
+    font-size: larger;
+}
+
+.p{
+    width: 400px;
+    margin-left: 70px;
+    font-size: large;
+}
+
+.r{
+    margin: 2px solid white;1
+}
+
+.n{
+    color: aliceblue;
+}
+
+.t{
+    font-family: serif;
+    max-width: 250px;
+    margin-left: 70px;
+    color: white;
+}
+
+.t1{
+    margin-top: 40px;
+    font-family: serif;
+    margin-left: 70px;
+    color: white;
+}
+
+.container{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.f{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: rgb(153, 23, 192);
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    width: 340px;
+    font-size: large;
+}
+
+.h2{
+    padding-left: 50px;
+    margin-top: -15px;
+}
+
+.ProjectLinks{
+    display: flex;
+    width: 50px;
+}
+
+.p2{
+    margin-top: -20px;
+    align-self: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.fm{
+    display: fl;
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.form{
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: white;
+    height: 380px;
+    width: 1200px;
+}
+
+.fm1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.formheader{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.box{
+    width: 500px;
+    height: 40px;
+}
+
+.fl{
+    padding-right: 10px;
+    font-size: large;
+}
+
+.fl1{
+    padding-left: 20px;
+}
+
+.submitbutton{
+    margin-top: 20px;
+    margin-left: 900px;
+    width: 100px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic{
+    border-radius: 50%;
+}
+
+.conmargin{
+    margin-right: -10px;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.conmargin1{
+    margin-left: -2px;
+    margin-bottom: 30px;
+}
+
+
