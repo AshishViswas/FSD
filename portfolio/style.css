@@ -6,6 +6,7 @@
  
 .c1{
     color: white;
+    margin-top: 10px;
 }
 
 .description{
@@ -60,12 +61,13 @@
     color: white;
 }
 
-.container{
-    margin-top: 30px;
-    width: 100%;
+.con{
+    margin-top: 20px;
+    max-width: 100%;
+    height: 440px;
 }
 
-.f{
+.footy{
     margin-top: 50px;
     padding-top: 50px;
     background-color: rgb(153, 23, 192);
@@ -102,7 +104,7 @@
     margin-top: -30px;
     margin-left: 50px;
     margin-right: 100px;
-    padding-top: 50px;
+    padding-top: 30px;
     display: flex;
 }
 
@@ -112,11 +114,14 @@
     background-color: white;
     height: 380px;
     width: 1200px;
+    box-sizing: border-box;
 }
 
 .fm1{
     padding-left: 100px;
     padding-right: 100px;
+    width: auto;
+    box-sizing: border-box;
 }
 
 .formheader{
@@ -129,19 +134,29 @@
     height: 40px;
 }
 
-.fl{
+.feild1{
+    padding-left: 50px;
     padding-right: 10px;
+    width: auto;
     font-size: large;
 }
 
-.fl1{
+.feild2{
     padding-left: 20px;
+    padding-right: 80px;
+    font-size: large;
+    width: auto;
+}
+
+.button{
+    box-sizing: border-box;
 }
 
 .submitbutton{
     margin-top: 20px;
     margin-left: 900px;
     width: 100px;
+    box-sizing: border-box;
 }
 
 .socialicons{
@@ -164,4 +179,42 @@
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 600px){
+    .con{
+        height: 300px;
+    }
+    .fm{
+        display: flex;
+        flex-direction: column;
+    }
+    .feild1{
+        padding-left: 30px;
+        width: 300px;
+    }
+    .feild2{
+        padding-top: 10px;
+        padding-left: 30px;
+        width: 300px;
+    }
+    .fm1{
+        /* margin-top: -10; */
+        padding-left: 30px;
+    }
+    .form{
+        height: 500px;
+        width: auto;
+    }
+    .button{
+        box-sizing: border-box;
+    }
+    .pic{
+        width: 200px;
+        height: 200px;
+    }
+}
 
+@media screen and (max-width: 750px) and (min-width: 600px){
+    .con{
+        height: 350px;
+    }
+}
